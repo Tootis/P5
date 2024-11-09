@@ -1,11 +1,21 @@
-/* Style global */
 body {
     max-width: 1920px;
     margin: auto;
-    font-family: 'Inter', sans-serif; /* Utiliser une seule déclaration pour la police */
+    font-family: 'Inter', sans-serif;
+    
 }
-
-/* En-tête */
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: rgb(255 0 37 / 42%);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.carousel-indicators{
+    background-color: rgb(109 0 16 / 58%);
+    transform: scale(1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
+    margin-right: 40%;
+    margin-left: 40%;
+}
 .top-header {
     background-color: white;
     position: sticky;
@@ -13,7 +23,7 @@ body {
     z-index: 1000;
     display: flex;
     justify-content: space-between;
-    padding: 30px 100px; /* Simplifier la déclaration de padding */
+    padding: 30px 100px;
     align-items: center;
 }
 
@@ -25,11 +35,11 @@ body {
     display: flex;
     list-style-type: none;
     font-size: 14px;
-    margin: 0; /* Retirer le margin-bottom */
+    margin: 0;
 }
 
 .nav li {
-    padding: 0 10px; /* Utiliser padding shorthand */
+    padding: 0 10px;
 }
 
 .nav a {
@@ -41,18 +51,17 @@ body {
     width: 20px;
 }
 
-/* Section À propos */
 #about {
     display: flex;
     background-color: #F6D2B8;
-    padding: 100px 100px; /* Simplifier la déclaration de padding */
+    padding: 100px 100px;
     position: relative;
 }
 
 .picture {
     flex: 1;
     margin: 0 20px;
-    position: relative; /* Ajustement pour gérer le positionnement des pseudo-éléments */
+    position: relative;
 }
 
 .picture img {
@@ -75,7 +84,7 @@ body {
 }
 
 .about-me__title {
-    margin: 1em 0 60px; /* Utiliser shorthand pour margin */
+    margin: 1em 0 60px;
     font-size: 30px;
 }
 

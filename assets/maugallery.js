@@ -212,7 +212,7 @@
 
       $(".active-tag").removeClass("active active-tag").css("background-color", "");
 
-      $(this).addClass("active-tag").css("background-color", "gold");
+      $(this).addClass("active-tag").css("background-color", "BEB45A");
 
       var tag = $(this).data("images-toggle");
 
